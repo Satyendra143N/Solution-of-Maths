@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t;
+    cout<<"Enter the number of test cases: ";
+    cin>>t;
+    while(t--)
+    {
+        int A,B;
+        cout<<"Enter any two numbers: ";
+        cin>>A>>B;
+        while(A<B)
+      {  if(A%2==0)
+        {
+            A+=2;
+        }
+        else
+{
+    A+=1;
+}
+}
+if(A==B)
+{
+    cout<<"YES"<<endl;
+}
+else
+{
+    cout<<"NO"<<endl;
+}
+        
+    }
+}
